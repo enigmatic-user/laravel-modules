@@ -15,7 +15,7 @@ class InterfaceMakeCommand extends GeneratorCommand
 
     protected $argumentName = 'name';
     protected $name = 'module:make-interface';
-    protected $description = 'Create a new interface class for the specified module.';
+    protected $description = 'Create a new interface for the specified module.';
 
     public function getDestinationFilePath(): string
     {
